@@ -45,3 +45,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.thirdSection-h1{
+    font-size: 40px;
+}
+.box-section{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 5px;
+    background-color: white;
+}
+.third-section{
+    background-image: url(./Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#exp-border-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
